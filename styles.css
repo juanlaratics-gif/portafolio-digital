@@ -1082,7 +1082,8 @@ h1 span {
   display: grid;
   width: min(17rem, 70vw);
   aspect-ratio: 1;
-  place-items: center;
+  place-content: center;
+  justify-items: center;
   margin-bottom: 1rem;
   background:
     radial-gradient(circle, var(--white) 0 52%, transparent 53%),
@@ -1094,13 +1095,16 @@ h1 span {
   display: block;
   font-size: 4.5rem;
   font-weight: 900;
-  line-height: 1;
+  line-height: 0.9;
 }
 
 .ring small {
   display: block;
+  margin-top: 0.35rem;
   color: var(--muted);
+  font-size: 0.9rem;
   font-weight: 800;
+  line-height: 1;
 }
 
 .contact {
